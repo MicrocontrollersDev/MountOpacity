@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "mountopacity",
+	"version": "${version}",
+	"name": "MountOpacity",
+	"description": "Opacity for entities you can ride.",
+	"authors": [
+		"Microcontrollers"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/mountopacity",
+		"sources": "https://github.com/MicrocontrollersDev/MountOpacity",
+		"issues": "https://github.com/MicrocontrollersDev/MountOpacity/issues"
+	},
+	"license": "LGPLv3",
+	"icon": "assets/mountopacity/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.microcontrollers.mountopacity.MountOpacity"
+		],
+		"modmenu": [
+			"dev.microcontrollers.mountopacity.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"mountopacity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15",
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/rejfv9kFJj",
+				"modmenu.modrinth": "https://modrinth.com/mod/mountopacity"
+			},
+			"update_checker": true
+		}
+	}
+}
