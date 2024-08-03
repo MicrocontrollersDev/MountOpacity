@@ -1,0 +1,11 @@
+{
+  "key.mount-opacity.mount-opacity": "Mount Opacity",
+  "key.mount-opacity.horse-opacity": "Horse Opacity",
+  "key.mount-opacity.horse-opacity.description": "Changes the opacity of the horse you are currently riding.",
+  "key.mount-opacity.pig-opacity": "Pig Opacity",
+  "key.mount-opacity.pig-opacity.description": "Changes the opacity of the pig you are currently riding.",
+  "key.mount-opacity.strider-opacity": "Strider Opacity",
+  "key.mount-opacity.strider-opacity.description": "Changes the opacity of the strider you are currently riding.",
+  "key.mount-opacity.camel-opacity": "Camel Opacity",
+  "key.mount-opacity.camel-opacity.description": "Changes the opacity of the camel you are currently riding."
+}
